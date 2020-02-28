@@ -10,6 +10,20 @@ button {
   font-size: 18px;
   line-height: 21px;
 }
+.downloadApp {
+  width: 212px;
+  height: 56px;
+  left: 732px;
+  top: 682px;
+  background: #ED553B;
+  border-radius: 6px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
 .signUp {
   background: rgba(4, 58, 103, 0.8);
   color: #FFFFFF;
