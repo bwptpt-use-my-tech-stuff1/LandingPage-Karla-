@@ -1,0 +1,131 @@
+button {
+  width: 212px;
+  height: 56px;
+  left: 968px;
+  top: 42px;
+  border-radius: 6px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+.signUp {
+  background: rgba(4, 58, 103, 0.8);
+  color: #FFFFFF;
+}
+.signIn {
+  background: #FFFFFF;
+  color: #315C81;
+}
+h1 {
+  width: 553px;
+  height: 152px;
+  left: 732px;
+  top: 195px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 76px;
+  color: #242424;
+}
+h2 {
+  width: 376px;
+  height: 86px;
+  left: 732px;
+  top: 358px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+h3 {
+  width: 203px;
+  height: 29px;
+  left: 732px;
+  top: 490px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #242424;
+}
+h4 {
+  width: 508px;
+  height: 105px;
+  left: 732px;
+  top: 533px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+}
+footer {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 1%;
+}
+footer nav a {
+  text-decoration: none;
+  color: black;
+  padding-right: 10%;
+  font-weight: bold;
+}
+footer .footerSec1 {
+  width: 20%;
+}
+footer .footerSec2 {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+footer .footerSec3 {
+  display: flex;
+  width: 20%;
+  justify-content: flex-end;
+}
+footer .footerSec3 .facebook,
+footer .footerSec3 .twitter,
+footer .footerSec3 .insta {
+  padding-left: 10%;
+  width: 30px;
+}
+.container {
+  padding: 2% 2% 2% 2%;
+}
+.headerSec1 {
+  display: flex;
+  justify-content: left;
+}
+.headerSec2 {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.middleSection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 4% 2% 2% 2%;
+}
+.middleSection .pictureSection {
+  width: 45%;
+  padding-left: 5%;
+}
+.middleSection .infoSection {
+  width: 45%;
+}
