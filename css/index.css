@@ -279,16 +279,16 @@ footer nav a {
   font-weight: bold;
 }
 footer .footerSec1 {
-  width: 15%;
+  width: 20%;
 }
 footer .footerSec2 {
   display: flex;
-  width: 15%;
+  width: 20%;
   justify-content: center;
 }
 footer .footerSec3 {
   display: flex;
-  width: 15%;
+  width: 20%;
   justify-content: flex-end;
 }
 footer .footerSec3 .facebook,
@@ -303,7 +303,7 @@ footer .footerSec3 .insta {
   }
 }
 html .container {
-  padding: 1% 1% 1% 1%;
+  padding: 2% 2% 2% 2%;
 }
 @media (max-width: 500px) {
   html .container {
