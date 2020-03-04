@@ -211,7 +211,7 @@ h1 {
   font-weight: 600;
   font-size: 64px;
   line-height: 76px;
-  padding-bottom: 15%;
+  padding-bottom: 22%;
   color: #242424;
 }
 @media (max-width: 500px) {
@@ -227,7 +227,7 @@ h2 {
   font-weight: normal;
   font-size: 36px;
   line-height: 43px;
-  padding-bottom: 10%;
+  padding-bottom: 15%;
   color: #000000;
 }
 @media (max-width: 500px) {
@@ -243,7 +243,7 @@ h3 {
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
   color: #242424;
 }
 @media (max-width: 500px) {
@@ -259,6 +259,7 @@ h4 {
   font-weight: normal;
   font-size: 18px;
   color: #000000;
+  padding-bottom: 4%;
 }
 @media (max-width: 500px) {
   h4 {
@@ -275,20 +276,20 @@ footer {
 footer nav a {
   text-decoration: none;
   color: black;
-  padding-right: 10%;
+  padding-right: 3%;
   font-weight: bold;
 }
 footer .footerSec1 {
-  width: 20%;
+  width: 30%;
 }
 footer .footerSec2 {
   display: flex;
-  width: 20%;
+  width: 30%;
   justify-content: center;
 }
 footer .footerSec3 {
   display: flex;
-  width: 20%;
+  width: 30%;
   justify-content: flex-end;
 }
 footer .footerSec3 .facebook,
@@ -325,7 +326,7 @@ html .headerSec1 {
 html .headerSec2 {
   display: flex;
   justify-content: space-between;
-  width: 25%;
+  width: 40%;
 }
 @media (max-width: 500px) {
   html .headerSec2 .threePhones {
@@ -369,7 +370,6 @@ html .middleSection .title1 {
 }
 html .middleSection .pictureSection {
   width: 45%;
-  padding-left: 5%;
 }
 @media (max-width: 500px) {
   html .middleSection .pictureSection {
@@ -377,7 +377,8 @@ html .middleSection .pictureSection {
   }
 }
 html .middleSection .infoSection {
-  width: 35%;
+  width: 45%;
+  padding-left: 5%;
 }
 @media (max-width: 500px) {
   html .downloadApp {
