@@ -350,7 +350,7 @@ html .middleSection {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 4% 2% 2% 2%;
+  padding: 2% 2% 2% 2%;
 }
 html .middleSection .title1 {
   display: none;
