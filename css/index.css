@@ -302,6 +302,9 @@ footer .footerSec3 .insta {
     display: none;
   }
 }
+html {
+  max-width: 1200px;
+}
 html .container {
   padding: 2% 2% 2% 2%;
 }
