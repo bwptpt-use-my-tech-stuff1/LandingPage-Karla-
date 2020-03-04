@@ -28,58 +28,242 @@ button {
   background: rgba(4, 58, 103, 0.8);
   color: #FFFFFF;
 }
+@media (max-width: 500px) {
+  .signUp {
+    width: 343px;
+    height: 56px;
+    left: 16px;
+    top: 561px;
+    background: rgba(237, 85, 59, 0.8);
+    border-radius: 6px;
+  }
+}
 .signIn {
   background: #FFFFFF;
   color: #315C81;
 }
+@media (max-width: 500px) {
+  .signIn {
+    width: 343px;
+    height: 56px;
+    left: 16px;
+    top: 561px;
+    background: white;
+    color: rgba(237, 85, 59, 0.8);
+    border: 1px rgba(237, 85, 59, 0.8) solid;
+  }
+}
 h1 {
   width: 553px;
-  height: 152px;
+  height: 52px;
   left: 732px;
   top: 195px;
-  font-family: SF Pro Text;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 64px;
-  line-height: 76px;
-  color: #242424;
 }
 h2 {
   width: 376px;
-  height: 86px;
+  height: 45px;
   left: 732px;
   top: 358px;
-  font-family: SF Pro Text;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 43px;
-  color: #000000;
 }
 h3 {
-  width: 203px;
-  height: 29px;
+  width: 230px;
+  height: 30px;
   left: 732px;
   top: 490px;
-  font-family: SF Pro Text;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-  color: #242424;
 }
 h4 {
   width: 508px;
   height: 105px;
   left: 732px;
   top: 533px;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  padding-bottom: 15%;
+  color: #242424;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 25%;
+  }
+}
+h2 {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 10%;
+  color: #000000;
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 24px;
+    line-height: 43px;
+    padding-bottom: 30%;
+  }
+}
+h3 {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 1%;
+  color: #242424;
+}
+@media (max-width: 500px) {
+  h3 {
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 10%;
+  }
+}
+h4 {
   font-family: SF Pro Text;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 40px;
   color: #000000;
+}
+@media (max-width: 500px) {
+  h4 {
+    font-size: 20px;
+  }
 }
 footer {
   background-color: #F5F5F5;
@@ -113,33 +297,93 @@ footer .footerSec3 .insta {
   padding-left: 10%;
   width: 30px;
 }
-.container {
+@media (max-width: 500px) {
+  footer {
+    display: none;
+  }
+}
+html .container {
   padding: 2% 2% 2% 2%;
 }
-.headerSec1 {
+@media (max-width: 500px) {
+  html .container {
+    padding: 0% 0% 0% 0%;
+  }
+}
+html .headerSec1 {
   display: flex;
   justify-content: left;
 }
-.headerSec2 {
+@media (max-width: 500px) {
+  html .headerSec1 .logo {
+    display: none;
+  }
+}
+html .headerSec2 {
   display: flex;
   justify-content: space-between;
   width: 25%;
 }
-header {
+@media (max-width: 500px) {
+  html .headerSec2 .threePhones {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  html .headerSec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+  }
+}
+html header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.middleSection {
+html .middleSection {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: 4% 2% 2% 2%;
 }
-.middleSection .pictureSection {
+html .middleSection .title1 {
+  display: none;
+}
+@media (max-width: 500px) {
+  html .middleSection {
+    flex-direction: column;
+    padding: 0% 0% 0% 0%;
+  }
+  html .middleSection .title1 {
+    display: visible;
+    display: inline;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+html .middleSection .pictureSection {
   width: 45%;
   padding-left: 5%;
 }
-.middleSection .infoSection {
-  width: 45%;
+@media (max-width: 500px) {
+  html .middleSection .pictureSection {
+    padding-left: 0%;
+  }
+}
+html .middleSection .infoSection {
+  width: 35%;
+}
+@media (max-width: 500px) {
+  html .downloadApp {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  html .body {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
 }
