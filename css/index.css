@@ -277,6 +277,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 1% 1%;
+  width: 1240px;
 }
 footer nav a {
   text-decoration: none;
@@ -410,4 +411,29 @@ html .middleSection .infoSection .title1 {
     display: flex;
     flex-wrap: wrap-reverse;
   }
+}
+.personOne,
+.personTwo,
+.personThree,
+.personFour,
+.personFive,
+.personSix {
+  width: 80%;
+  height: 80%;
+  padding: 2% 2%;
+}
+.personOne img,
+.personTwo img,
+.personThree img,
+.personFour img,
+.personFive img,
+.personSix img {
+  width: 50%;
+  border-radius: 20%;
+  border: #ED553B 4px solid;
+}
+.rowOne,
+.rowtwo,
+.rowThree {
+  display: flex;
 }
