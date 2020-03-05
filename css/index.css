@@ -1,0 +1,413 @@
+button {
+  width: 212px;
+  height: 56px;
+  left: 968px;
+  top: 42px;
+  border-radius: 6px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+.downloadApp {
+  width: 212px;
+  height: 56px;
+  left: 732px;
+  top: 682px;
+  background: #ED553B;
+  border-radius: 6px;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.signUp {
+  background: rgba(4, 58, 103, 0.8);
+  color: #FFFFFF;
+}
+@media (max-width: 500px) {
+  .signUp {
+    width: 100%;
+    height: 56px;
+    left: 16px;
+    top: 561px;
+    background: rgba(237, 85, 59, 0.8);
+    border-radius: 6px;
+  }
+}
+.signIn {
+  background: #FFFFFF;
+  color: #315C81;
+}
+@media (max-width: 500px) {
+  .signIn {
+    width: 100%;
+    height: 56px;
+    left: 16px;
+    top: 561px;
+    background: white;
+    color: rgba(237, 85, 59, 0.8);
+    border: 1px rgba(237, 85, 59, 0.8) solid;
+  }
+}
+h1 {
+  width: 553px;
+  height: 52px;
+  left: 732px;
+  top: 195px;
+}
+h2 {
+  width: 376px;
+  height: 45px;
+  left: 732px;
+  top: 358px;
+}
+h3 {
+  width: 230px;
+  height: 30px;
+  left: 732px;
+  top: 490px;
+}
+h4 {
+  width: 508px;
+  height: 105px;
+  left: 732px;
+  top: 533px;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  padding-bottom: 22%;
+  color: #242424;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 15%;
+  }
+}
+h2 {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 8%;
+  color: #000000;
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 24px;
+    line-height: 43px;
+    padding-bottom: 30%;
+  }
+}
+h3 {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 2%;
+  color: #242424;
+}
+@media (max-width: 500px) {
+  h3 {
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 10%;
+  }
+}
+h4 {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  padding-bottom: 4%;
+}
+@media (max-width: 500px) {
+  h4 {
+    font-size: 20px;
+    padding-bottom: 30%;
+  }
+}
+.title1 {
+  font-size: 55px;
+  padding-top: 30%;
+}
+footer {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 1%;
+}
+footer nav a {
+  text-decoration: none;
+  color: black;
+  padding-right: 3%;
+  font-weight: bold;
+}
+footer .footerSec1 {
+  width: 30%;
+}
+footer .footerSec2 {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+}
+footer .footerSec3 {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+footer .footerSec3 .facebook,
+footer .footerSec3 .twitter,
+footer .footerSec3 .insta {
+  padding-left: 10%;
+  width: 30px;
+}
+@media (max-width: 500px) {
+  footer {
+    display: none;
+  }
+}
+html {
+  max-width: 1240px;
+}
+html .pageContainer {
+  display: flex;
+  margin: 0% auto;
+  flex-wrap: wrap;
+}
+html .pageContainer .sectionOneContainer {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  html .pageContainer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+}
+html .container {
+  padding: 2% 2% 2% 2%;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  html .container {
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+    padding-left: 33%;
+  }
+}
+html header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+html header .headerSec1 {
+  display: flex;
+  justify-content: left;
+}
+@media (max-width: 500px) {
+  html header .headerSec1 .logo {
+    display: none;
+  }
+}
+html header .headerSec2 {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+@media (max-width: 500px) {
+  html header .headerSec2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    justify-content: center;
+    padding-bottom: 5%;
+  }
+}
+html .middleSection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2% 2% 2% 2%;
+}
+html .middleSection .pictureSection {
+  width: 45%;
+}
+@media (max-width: 500px) {
+  html .middleSection .pictureSection {
+    padding-left: 0%;
+    display: none;
+    width: 100%;
+  }
+}
+html .middleSection .infoSection {
+  width: 45%;
+  padding-left: 10%;
+}
+html .middleSection .infoSection .title1 {
+  display: none;
+}
+@media (max-width: 500px) {
+  html .middleSection .infoSection .title1 {
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+}
+@media (max-width: 500px) {
+  html .downloadApp {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  html .body {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+}
