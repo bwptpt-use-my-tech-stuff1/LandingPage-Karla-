@@ -30,7 +30,7 @@ button {
 }
 @media (max-width: 500px) {
   .signUp {
-    width: 343px;
+    width: 100%;
     height: 56px;
     left: 16px;
     top: 561px;
@@ -44,7 +44,7 @@ button {
 }
 @media (max-width: 500px) {
   .signIn {
-    width: 343px;
+    width: 100%;
     height: 56px;
     left: 16px;
     top: 561px;
@@ -218,7 +218,7 @@ h1 {
   h1 {
     font-size: 40px;
     line-height: 40px;
-    padding-bottom: 25%;
+    padding-bottom: 15%;
   }
 }
 h2 {
@@ -227,7 +227,7 @@ h2 {
   font-weight: normal;
   font-size: 36px;
   line-height: 43px;
-  padding-bottom: 15%;
+  padding-bottom: 8%;
   color: #000000;
 }
 @media (max-width: 500px) {
@@ -264,7 +264,11 @@ h4 {
 @media (max-width: 500px) {
   h4 {
     font-size: 20px;
+    padding-bottom: 30%;
   }
+}
+.title1 {
+  font-size: 55px;
 }
 footer {
   background-color: #F5F5F5;
@@ -306,45 +310,62 @@ footer .footerSec3 .insta {
 html {
   max-width: 1240px;
 }
+html .pageContainer {
+  display: flex;
+  margin: 0% auto;
+  flex-wrap: wrap;
+}
+html .pageContainer .sectionOneContainer {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  html .pageContainer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+}
 html .container {
   padding: 2% 2% 2% 2%;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-width: 500px) {
   html .container {
+    width: 100%;
     padding: 0% 0% 0% 0%;
+    padding-left: 33%;
   }
 }
-html .headerSec1 {
+html header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+html header .headerSec1 {
   display: flex;
   justify-content: left;
 }
 @media (max-width: 500px) {
-  html .headerSec1 .logo {
+  html header .headerSec1 .logo {
     display: none;
   }
 }
-html .headerSec2 {
+html header .headerSec2 {
   display: flex;
   justify-content: space-between;
   width: 40%;
 }
 @media (max-width: 500px) {
-  html .headerSec2 .threePhones {
-    display: none;
-  }
-}
-@media (max-width: 500px) {
-  html .headerSec2 {
+  html header .headerSec2 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 5%;
+    justify-content: center;
+    padding-bottom: 5%;
   }
-}
-html header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 html .middleSection {
   display: flex;
@@ -352,33 +373,31 @@ html .middleSection {
   align-items: center;
   padding: 2% 2% 2% 2%;
 }
-html .middleSection .title1 {
-  display: none;
-}
-@media (max-width: 500px) {
-  html .middleSection {
-    flex-direction: column;
-    padding: 0% 0% 0% 0%;
-  }
-  html .middleSection .title1 {
-    display: visible;
-    display: inline;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-}
 html .middleSection .pictureSection {
   width: 45%;
 }
 @media (max-width: 500px) {
   html .middleSection .pictureSection {
     padding-left: 0%;
+    display: none;
+    width: 100%;
   }
 }
 html .middleSection .infoSection {
   width: 45%;
   padding-left: 10%;
+}
+html .middleSection .infoSection .title1 {
+  display: none;
+}
+@media (max-width: 500px) {
+  html .middleSection .infoSection .title1 {
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
 }
 @media (max-width: 500px) {
   html .downloadApp {
