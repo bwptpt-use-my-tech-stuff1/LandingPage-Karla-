@@ -267,6 +267,23 @@ h4 {
     padding-bottom: 30%;
   }
 }
+h5 {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 8%;
+  color: #000000;
+}
+@media (max-width: 500px) {
+  h5 {
+    font-size: 24px;
+    line-height: 43px;
+    padding-bottom: 30%;
+    padding-top: 10%;
+  }
+}
 .title1 {
   font-size: 55px;
   padding-top: 30%;
@@ -277,6 +294,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 1% 1%;
+  width: 1240px;
 }
 footer nav a {
   text-decoration: none;
@@ -410,4 +428,35 @@ html .middleSection .infoSection .title1 {
     display: flex;
     flex-wrap: wrap-reverse;
   }
+}
+.personOne,
+.personTwo,
+.personThree,
+.personFour,
+.personFive,
+.personSix {
+  width: 80%;
+  height: 80%;
+  padding: 2% 2%;
+}
+.personOne img,
+.personTwo img,
+.personThree img,
+.personFour img,
+.personFive img,
+.personSix img {
+  width: 50%;
+  border-radius: 20%;
+  border: #ED553B 4px solid;
+}
+.rowOne,
+.rowtwo,
+.rowThree {
+  display: flex;
+}
+.pictureSectionAbout {
+  margin: 0 auto;
+}
+.h2New {
+  padding-top: 10%;
 }
