@@ -437,3 +437,6 @@ html .middleSection .infoSection .title1 {
 .rowThree {
   display: flex;
 }
+.pictureSectionAbout {
+  margin: 0 auto;
+}
