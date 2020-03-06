@@ -267,6 +267,23 @@ h4 {
     padding-bottom: 30%;
   }
 }
+h5 {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 8%;
+  color: #000000;
+}
+@media (max-width: 500px) {
+  h5 {
+    font-size: 24px;
+    line-height: 43px;
+    padding-bottom: 30%;
+    padding-top: 10%;
+  }
+}
 .title1 {
   font-size: 55px;
   padding-top: 30%;
@@ -439,4 +456,7 @@ html .middleSection .infoSection .title1 {
 }
 .pictureSectionAbout {
   margin: 0 auto;
+}
+.h2New {
+  padding-top: 10%;
 }
